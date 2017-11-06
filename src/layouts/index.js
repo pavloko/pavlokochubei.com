@@ -4,58 +4,30 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import favicon from '../../favicon.ico'
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Pavlo Kochubei
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
-
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Pavlo Kochubei | Teacher. Engineer. Designer"
-      meta={[
-        { name: 'description', content: 'Personal website of Pavlo Kochubei. Teacher. Engineer. Designer' },
-        { name: 'keywords', content: 'education, ESL, education technology, ux, ui, spaced-repetition' },
-      ]}
+const TemplateWrapper = ({ children }) => [
+  <Helmet key="1">
+    <title>Pavlo Kochubei | Teacher. Engineer. Designer</title>
+    <link rel="icon" href={favicon} type="image/x-icon" />
+    <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
-  </div>
-)
+    <meta
+      name="description"
+      content="Personal website of Pavlo Kochubei. Teacher. Engineer. Designer. My thought on products, education and technology."
+    />
+    <meta
+      name="keywords"
+      content="education, ESL, education technology, ux, ui, spaced-repetition, call"
+    />
+  </Helmet>,
+  <div key="2" className="wrapper">
+    {children()}
+  </div>,
+]
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,

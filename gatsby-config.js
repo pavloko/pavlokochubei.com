@@ -1,6 +1,3 @@
 module.exports = {
-  siteMetadata: {
-    title: `Pavlo Kochubei | Teacher. Engineer. Designer`,
-  },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-react-next'],
 }

@@ -1,15 +1,18 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "pavlokochubei.com",
+  "description": "Personal website of Pavlo Kochubei",
+  "version": "0.0.1",
+  "author": "Pavlo Kochubei <pavlo.kochubei@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.73",
     "gatsby-link": "^1.6.22",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-react-next": "^1.0.4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "ed.tech"
   ],
   "license": "MIT",
   "main": "n/a",
