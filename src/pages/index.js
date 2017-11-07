@@ -5,7 +5,7 @@ import SocialLinks from '../components/SocialLinks'
 class IndexPage extends React.Component {
   render() {
     return (
-      <main>
+      <main role="main">
         <h1>I am Pavlo Kochubei.</h1>
         <p>
           My mission is building elegant, intuitive and intelligent software for
