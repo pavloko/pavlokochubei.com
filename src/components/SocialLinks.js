@@ -8,6 +8,10 @@ const socialLinks = [
     name: 'Blog'
   },
   {
+    url: 'https://github.com/pavloko',
+    name: 'Github'
+  },
+  {
     url: 'https://www.facebook.com/pavlokochubei',
     name: 'Facebook'
   },
