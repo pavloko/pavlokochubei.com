@@ -6,8 +6,7 @@ module.exports = {
       resolve: 'gatsby-plugin-hotjar',
       options: {
         sv: 6,
-        id: 700184,
-        host: 'pavlokochubei.com'
+        id: 700184
       }
     },
     {
