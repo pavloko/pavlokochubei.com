@@ -23,6 +23,7 @@ const TemplateWrapper = ({ children }) => [
       name="keywords"
       content="education, ESL, education technology, ux, ui, spaced-repetition, call"
     />
+    <meta name="google-site-verification" content="NY-ZutXi7SuKlCHlc_G4cAuWnYqYblkrtZYG5F5ikb8" />
   </Helmet>,
   <div key="2" className="wrapper">
     {children()}
