@@ -1,0 +1,15 @@
+.social-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.social-links__link {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding-right: 16px;
+}
+
+main {
+  width: 100%;
+}
