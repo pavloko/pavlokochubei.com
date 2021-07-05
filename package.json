@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Pavlo Kochubei <pavlo.kochubei@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.73",
+    "gatsby": "^1.9.279",
     "gatsby-link": "^2.0.5",
     "gatsby-plugin-google-analytics": "^1.0.14",
     "gatsby-plugin-hotjar": "1.1.1",
