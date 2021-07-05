@@ -3039,9 +3039,9 @@ gatsby-plugin-google-analytics@^1.0.14:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-hotjar@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-hotjar/-/gatsby-plugin-hotjar-1.0.1.tgz#f5703d7d2a354752e20230a0074d53c7287d8950"
+gatsby-plugin-hotjar@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-hotjar/-/gatsby-plugin-hotjar-1.1.1.tgz#b910209c80fb2a0df9e0dc1b52de7270d9831b31"
   dependencies:
     babel-runtime "^6.26.0"
 

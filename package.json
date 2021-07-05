@@ -7,7 +7,7 @@
     "gatsby": "^1.9.73",
     "gatsby-link": "^2.0.5",
     "gatsby-plugin-google-analytics": "^1.0.14",
-    "gatsby-plugin-hotjar": "1.0.1",
+    "gatsby-plugin-hotjar": "1.1.1",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-react-next": "^1.0.6",
     "gatsby-plugin-yandex-metrika": "^1.2.1"
