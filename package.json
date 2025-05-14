@@ -1,31 +1,27 @@
 {
   "name": "pavlokochubei.com",
-  "description": "Personal website of Pavlo Kochubei",
-  "version": "0.0.1",
-  "author": "Pavlo Kochubei <pavlo.kochubei@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.73",
-    "gatsby-link": "^2.0.5",
-    "gatsby-plugin-google-analytics": "^1.0.14",
-    "gatsby-plugin-hotjar": "1.1.1",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-react-next": "^1.0.6",
-    "gatsby-plugin-yandex-metrika": "^1.2.1"
-  },
-  "keywords": [
-    "gatsby",
-    "react",
-    "ed.tech"
-  ],
-  "license": "MIT",
-  "main": "n/a",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "0.5.7",
+    "next": "14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "eslint": "8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "8",
+    "tailwindcss": "3.4.1",
+    "typescript": "5"
   }
 }
